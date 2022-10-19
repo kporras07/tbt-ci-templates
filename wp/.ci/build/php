@@ -7,6 +7,3 @@ set -eo pipefail
 # The web and vendor artifact directories will
 # need to be persisted to other jobs.
 #
-
-# Build Composer Assets
-composer -n build-assets
