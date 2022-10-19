@@ -8,6 +8,8 @@ set -eo pipefail
 # Otherwise a multidev environment is used.
 #
 
+git config --global --add safe.directory '*'
+
 # Cut gitignore at the cut mark.
 terminus build:gitignore:cut
 
